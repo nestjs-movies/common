@@ -1,0 +1,23 @@
+{
+  "name": "@nestjs-movies/common",
+  "version": "1.0.0",
+  "description": "Core shared components",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\""
+  },
+  "devDependencies": {
+    "@nestjs-movies/core": "^1.0.3",
+    "@types/node": "^25.0.10",
+    "prettier": "^3.8.1",
+    "typescript": "^5.9.3"
+  }
+}
