@@ -1,6 +1,6 @@
 {
   "name": "@nestjs-movies/common",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Core shared components",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -19,5 +19,11 @@
     "@types/node": "^25.0.10",
     "prettier": "^3.8.1",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@nestjs-movies/contracts": "^1.1.3",
+    "@nestjs/common": "^11.1.13",
+    "@nestjs/config": "^4.0.3",
+    "@nestjs/microservices": "^11.1.13"
   }
 }
